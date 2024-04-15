@@ -17,6 +17,7 @@ class _HomeScreenState extends State<HomeScreen> {
           Container(
             height: 150,
             child: ListView.builder(
+              shrinkWrap: true,
               itemCount: 8,
               itemBuilder: (context, count) {
                 return Container(
